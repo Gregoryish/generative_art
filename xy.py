@@ -1,4 +1,3 @@
-from turtle import width
 from PIL import Image, ImageDraw, ImageChops
 import random 
 import numpy as np
