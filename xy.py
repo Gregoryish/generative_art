@@ -160,7 +160,7 @@ def grid_art(n_columns=5, n_rows=5, n_split=10, random_dev=10, image_size = (108
     return image
      
 def user_input_features():
-    username = st.text_input('text your wish', 'be happppyyyy!', 150)
+    username = st.text_input('text your wish', 'wasaaaap', 150)
     random_seed = 42
     random.seed(username)
     image_size_px = st.sidebar.slider('px', 500, 2000, 1080)
