@@ -160,7 +160,7 @@ def grid_art(n_columns=5, n_rows=5, n_split=10, random_dev=10, image_size = (108
     return image
      
 def user_input_features():
-    username = st.text_input('your id', 'username', 150)
+    username = st.text_input('text your wish', 'be happppyyyy!', 150)
     random_seed = 42
     random.seed(username)
     image_size_px = st.sidebar.slider('px', 500, 2000, 1080)
@@ -198,6 +198,10 @@ def user_input_features():
 
 
 if __name__ == '__main__':
-    st.write("""# Hello!""")
+    st.write("""# Take your wish reminder for 2025!""")
+    st.write('contact https://t.me/gregoryish')
     fig = user_input_features()
-    st.image(fig, caption='result')
+    st.image(fig, caption='Your Wish Reminder')
+    
+    
+    
